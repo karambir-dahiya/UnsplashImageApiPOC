@@ -11,6 +11,7 @@
 		06DC37B42BCD0CBB009F9ABF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC37B32BCD0CBB009F9ABF /* ContentView.swift */; };
 		06DC37B62BCD0CBD009F9ABF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DC37B52BCD0CBD009F9ABF /* Assets.xcassets */; };
 		06DC37B92BCD0CBD009F9ABF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06DC37B82BCD0CBD009F9ABF /* Preview Assets.xcassets */; };
+		06DC37C12BCD0CFB009F9ABF /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06DC37C02BCD0CFB009F9ABF /* UIImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		06DC37B32BCD0CBB009F9ABF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06DC37B52BCD0CBD009F9ABF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		06DC37B82BCD0CBD009F9ABF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06DC37C02BCD0CFB009F9ABF /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		06DC37B02BCD0CBB009F9ABF /* UnsplashImageApiPoc */ = {
 			isa = PBXGroup;
 			children = (
+				06DC37BF2BCD0CE2009F9ABF /* Extension */,
 				06DC37B12BCD0CBB009F9ABF /* UnsplashImageApiPocApp.swift */,
 				06DC37B32BCD0CBB009F9ABF /* ContentView.swift */,
 				06DC37B52BCD0CBD009F9ABF /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				06DC37B82BCD0CBD009F9ABF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06DC37BF2BCD0CE2009F9ABF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				06DC37C02BCD0CFB009F9ABF /* UIImageView.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06DC37B42BCD0CBB009F9ABF /* ContentView.swift in Sources */,
+				06DC37C12BCD0CFB009F9ABF /* UIImageView.swift in Sources */,
 				06DC37B22BCD0CBB009F9ABF /* UnsplashImageApiPocApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
